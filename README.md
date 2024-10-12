@@ -38,7 +38,7 @@ Um die SwagLabs-Anwendung lokal einzurichten, führen Sie diese Schritte aus:
 
 ### Zum beispiel locale testing exekution
 
-![Zum beispiel locale testing exekution](execution.mp4)
+![Zum beispiel locale testing exekution](LocalExecution.gif)
 
 
 ## Verwendung
