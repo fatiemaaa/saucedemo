@@ -36,6 +36,11 @@ Um die SwagLabs-Anwendung lokal einzurichten, führen Sie diese Schritte aus:
 5. Anwendung ausführen:
 * npm start
 
+### Zum beispiel locale testing exekution
+
+![Zum beispiel locale testing exekution](execution.mp4)
+
+
 ## Verwendung
 * Benutzerhandbuch: Ausführliche Informationen zur Verwendung der SwagLabs-Anwendung finden Sie im Benutzerhandbuch.
 
