@@ -16,10 +16,6 @@ public class TC01_Login extends TestBase{
         loginPage.enterUserName(Username);
         loginPage.enterPassword(password);
         loginPage.clickonloginbutton();
-      //  new P01_LoginPage(driver).enterUserName(Username).enterPassword(password).clickonloginbutton();
-//        new PageBase(driver).OpenLeftSidMenu().LogOutText();
-        //Assertion
-//        Assert.assertTrue(new PageBase(driver).LogOutText());
 
     }
 }

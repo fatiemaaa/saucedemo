@@ -19,9 +19,5 @@ public class TC04_CheckOut extends TestBase{
         checkOutPage.EnterLastName(generateRandomLastName());
         checkOutPage.EnterPostalCode(generatePostalCode(7));
         checkOutPage.ClickOnContinueBtn();
-
-
-       // new P04_CheckOutPage(driver).EnterUserName(firstname).EnterLastName(lastname).EnterPostalCode(PostalCode)
-         //       .ClickOnContinueBtn();
     }
 }

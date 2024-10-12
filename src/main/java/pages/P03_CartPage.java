@@ -12,7 +12,6 @@ public class P03_CartPage {
 
     private final By ValidateCheckOutBtn= By.xpath("//a[text()='CHECKOUT']");
 
-
     public P03_CartPage Click_On_Check_Out_Btn() throws InterruptedException {
         Thread.sleep(3000);
         driver.findElement(this.ValidateCheckOutBtn).click();

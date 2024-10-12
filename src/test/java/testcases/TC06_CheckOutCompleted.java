@@ -13,8 +13,13 @@ public class TC06_CheckOutCompleted {
     public void ClickOnBackHome() throws InterruptedException {
         checkOutCompletePage= new P06_CheckOutCompletePage(driver);
         checkOutCompletePage.checkOutCompletePage();
+     }
 
-        //new P06_CheckOutCompletePage(driver).checkOutCompletePage();
+        @Test(priority = 2, description = "test open menu and logout")
+        public void ValidateLogOutPerform(){
+        checkOutCompletePage= new P06_CheckOutCompletePage(driver);
+        checkOutCompletePage.ValidateLogOut();
         }
+
     }
 

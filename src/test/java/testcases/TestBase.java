@@ -18,9 +18,9 @@ public class TestBase {
 
     @Parameters("browsername")
     @BeforeTest
-    public void setupDriver(String browsername){
+    public void setupDriver(String browsername) {
         setDriver(getNewInstance(browsername));
-        driver=getDriver();
+        driver = getDriver();
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
@@ -28,9 +28,9 @@ public class TestBase {
         driver.get("https://www.saucedemo.com/v1/");
     }
 
-//    @AfterTest
-//    public void teardown(){
-//        driver.quit();
-//    }
+    @AfterTest
+    public void teardown() {
+        driver.quit();
+    }
 
 }

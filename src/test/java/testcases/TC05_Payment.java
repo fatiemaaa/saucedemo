@@ -14,8 +14,5 @@ public class TC05_Payment {
     public void ClickOnFinishBtn() throws InterruptedException {
         paymentProceed= new P05_PaymentProceed(driver);
         paymentProceed.ClickOnFinishBtn();
-
-
-       // new P04_CheckOutPage(driver).ClickOnContinueBtn();
     }
 }

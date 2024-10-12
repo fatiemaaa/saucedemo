@@ -11,7 +11,7 @@
             </class>
             <class name="testcases.TC02_Products">
                 <methods>
-                    <include name="ProductAddToCart"/>
+                    <include name="SelectThreeProducts"/>
                 </methods>
             </class>
             <class name="testcases.TC03_Cart">
@@ -27,6 +27,11 @@
             <class name="testcases.TC05_Payment">
                 <methods>
                     <include name="ClickOnFinishBtn"/>
+                </methods>
+            </class>
+            <class name="testcases.TC06_CheckOutCompleted">
+                <methods>
+                    <include name="ValidateLogOutPerform"/>
                 </methods>
             </class>
 

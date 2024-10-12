@@ -10,13 +10,14 @@ public class Utility {
             "Grace", "Henry", "Ivy", "Jack", "Kate", "Leo",
             "Mary", "Noah", "Olivia", "Paul", "Quinn", "Riley",
             "Sarah", "Thomas", "Ursula", "Victor", "Wendy", "Xavier"
-};
+    };
 
     public static String generateRandomFirstName() {
-    Random random = new Random();
-    int index = random.nextInt(FIRST_NAMES.length);
-    return FIRST_NAMES[index];
-}
+        Random random = new Random();
+        int index = random.nextInt(FIRST_NAMES.length);
+        return FIRST_NAMES[index];
+    }
+
     private static final String[] LAST_NAMES = {
             "Smith", "Johnson", "Williams", "Jones", "Brown",
             "Davis", "Miller", "Wilson", "Moore", "Anderson",
@@ -29,6 +30,7 @@ public class Utility {
         int index = random.nextInt(LAST_NAMES.length);
         return LAST_NAMES[index];
     }
+
     public static String generatePostalCode(int length) {
         if (length <= 0) {
             throw new IllegalArgumentException("Postal code length must be positive.");
