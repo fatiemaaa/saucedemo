@@ -13,7 +13,7 @@ import static testcases.TestBase.driver;
 
 public class TC02_Products {
 
-    @Test(priority = 1 , description = "product add to cart")
+    @Test(priority = 1 , description = "klicken sie produkt mit cart")
     public void SelectThreeProducts() throws InterruptedException {
 
         new P02_ProductPage(driver).ClickOnAddToCart().ClickOnCartBtn();

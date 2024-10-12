@@ -10,7 +10,7 @@ public class TC01_Login extends TestBase{
     String Username="standard_user";
     String password="secret_sauce";
 
-    @Test(priority = 1, description = "login with valid username and password")
+    @Test(priority = 1, description = "Melden Sie sich mit Benutzernamen und Passwort an")
     public void LoginWithValidUserNameAndPassword() throws InterruptedException {
         loginPage= new P01_LoginPage(driver);
         loginPage.enterUserName(Username);
